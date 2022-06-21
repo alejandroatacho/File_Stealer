@@ -6,7 +6,7 @@ from shutil import copyfile
 directory = r'/file_path'
 save_path = r'temp/file_path'
 for filename in os.listdir(directory):
-    if filename.endswith(".pdf") or filename.endswith(".pptx") or filename.endswith(".doc") or filename.endswith(".docx"):
+    if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
         copyfile(directory + '/' + filename, save_path + '/' + filename)
         print(filename + " has been successfully copied!")
         # file = os.path.basename(filename[0])
