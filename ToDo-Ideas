@@ -1,0 +1,20 @@
+```
+import asyncio
+
+print("start")
+asyncio.run(asyncio.sleep(30)) # 30s
+print("stop")
+ ```
+Or you can do (psure async def main() is better though
+you can alternatively use time.sleep(30) but that blocks the whole thread)
+
+```
+import asyncio
+
+async def main():
+    print("start")
+    await asyncio.sleep(30) # 30s
+    print("stop")
+
+asyncio.run(main())
+```
