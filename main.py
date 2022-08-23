@@ -18,3 +18,4 @@ for filename in os.listdir(directory):
     else:
         print(
             "This is not a an important file, this file will be skipped: " + filename + "!")
+input("Press any key to exit...")
