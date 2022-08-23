@@ -19,7 +19,6 @@ for filename in os.listdir(directory):
         print(
             "This is not a an important file, this file will be skipped: " + filename + "!")
         text_file = open("output.txt", "a")
-        text_file = open("output.txt", END="\n")
         n = text_file.write(filename)
         text_file.close()
 
