@@ -1,1 +1,8 @@
-desktop.iniGitHubIISExpressMy MusicMy PicturesMy VideosMy Web SitesVisual Studio 2022desktop.iniGitHubIISExpressMy MusicMy PicturesMy VideosMy Web SitesVisual Studio 2022
+desktop.iniGitHubIISExpressMy MusicMy PicturesMy VideosMy Web SitesVisual Studio 2022desktop.iniGitHubIISExpressMy MusicMy PicturesMy VideosMy Web SitesVisual Studio 2022desktop.ini
+GitHub
+IISExpress
+My Music
+My Pictures
+My Videos
+My Web Sites
+Visual Studio 2022

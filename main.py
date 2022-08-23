@@ -6,6 +6,8 @@ import getpass
 # directory = r'temp/file_path'
 directory = r"C:\\Users\\" + getpass.getuser() + "\\documents"
 save_path = r'temp/file_path'
+
+
 for filename in os.listdir(directory):
     # comment below is working version/2nd if is broken due to max 3 arguments per .endswith
     if filename.endswith(".pdf") or filename.endswith(".pptx") or filename.endswith(".doc") or filename.endswith(".docx"):
@@ -19,7 +21,7 @@ for filename in os.listdir(directory):
         print(
             "This is not a an important file, this file will be skipped: " + filename + "!")
         text_file = open("output.txt", "a")
-        n = text_file.write(filename)
+        n = text_file.write(filename + "\n")
         text_file.close()
 
 input("Press any key to exit...")
