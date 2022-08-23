@@ -8,8 +8,8 @@ directory = r"C:\\Users\\" + getpass.getuser() + "\\documents"
 save_path = r'temp/file_path'
 for filename in os.listdir(directory):
     # comment below is working version/2nd if is broken due to max 3 arguments per .endswith
-    # if filename.endswith(".pdf") or filename.endswith(".pptx") or filename.endswith(".doc") or filename.endswith(".docx"):
-    if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
+    if filename.endswith(".pdf") or filename.endswith(".pptx") or filename.endswith(".doc") or filename.endswith(".docx"):
+        # if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
         copyfile(directory + '/' + filename, save_path + '/' + filename)
         print(filename + " has been successfully copied!")
         # file = os.path.basename(filename[0])
