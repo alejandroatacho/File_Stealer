@@ -3,10 +3,11 @@
 <li>Run on USB</li>
 <li>Read target document folder</li>
 <li>Display information in terminal (maybe or silent mode)</li>
+<li>*if* not runnable via USB, hide the folder somewhere within the C:\ sub folders</li>
 <br></br>
 <h2>FileStealer</h2>
 <br></br>
-<p>This is a simple tool that allows you to steal files from other users at school.</p>
+<p>This is a simple tool that allows you to steal files from other users at school via a USB.</p>
 <br></br>
 <p>The following files will be looked for:
 <br></br>
