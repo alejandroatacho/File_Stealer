@@ -7,11 +7,18 @@ import getpass
 directory = r"C:\\Users\\" + getpass.getuser() + "\\documents"
 save_path = r'temp/file_path'
 
+# Future codes to implement to scan thru all sub folders within the folder
+'''for root, subdirectories, files in os.walk(directory):
+    for subdirectory in subdirectories:
+        print(os.path.join(root, subdirectory))
+    for file in files:
+        print(os.path.join(root, file))
+'''
 
 for filename in os.listdir(directory):
-    # comment below is working version/2nd if is broken due to max 3 arguments per .endswith
+    # comment below is broken due to max 3 arguments per .endswith, very easy fix but im also very lazy to change 1 line of code :3
+    # if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
     if filename.endswith(".pdf") or filename.endswith(".pptx") or filename.endswith(".doc") or filename.endswith(".docx"):
-        # if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
         copyfile(directory + '/' + filename, save_path + '/' + filename)
         print(filename + " has been successfully copied!")
         # file = os.path.basename(filename[0])
