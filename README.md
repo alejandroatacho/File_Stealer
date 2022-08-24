@@ -1,3 +1,6 @@
+<p align="center">
+<img src="img/hero_banner.jpg" alt="hero-banner" width=auto height=300/>
+</p>
 <h1>Work In Progress</h1>
 <p>Goals:</p>
 <li>Run on USB</li>
