@@ -1,2 +1,5 @@
 temp/save_path/*
 temp/file_path/*
+/dist
+/build
+main.spec
