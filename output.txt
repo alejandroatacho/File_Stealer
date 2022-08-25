@@ -14,3 +14,11 @@ My Pictures
 My Videos
 My Web Sites
 Visual Studio 2022
+desktop.ini
+GitHub
+IISExpress
+My Music
+My Pictures
+My Videos
+My Web Sites
+Visual Studio 2022

@@ -15,6 +15,7 @@ save_path = r'temp/file_path'
         print(os.path.join(root, file))
 '''
 
+
 for filename in os.listdir(directory):
     # comment below is broken due to max 3 arguments per .endswith, very easy fix but im also very lazy to change 1 line of code :3
     # if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
