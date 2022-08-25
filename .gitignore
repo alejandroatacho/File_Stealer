@@ -4,3 +4,4 @@ temp/file_path/*
 /build
 main.spec
 .gitattributes
+*.txt
