@@ -54,3 +54,4 @@ My Pictures
 My Videos
 My Web Sites
 Visual Studio 2022
+desktop.ini
