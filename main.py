@@ -7,7 +7,8 @@ import getpass
 
 # directory = r'temp/file_path'
 directory = r"C:\\Users\\" + getpass.getuser() + "\\documents"
-save_path = r'temp/file_path'
+# save_path = r"temp\\file_path"
+save_path = r"D:\\dist\\main\\save_location"
 
 # Future codes to implement to scan thru all sub folders within the folder
 '''for root, subdirectories, files in os.walk(directory):
@@ -30,7 +31,6 @@ def run():
             if file.endswith('.txt') or file.endswith('.docx') or file.endswith('.pdf'):
                 print('File found')
                 print(file)
-                print(os.path.join(root, file))
                 copyfile(os.path.join(root, file),
                          os.path.join(save_path, file))
                 print('File copied')
