@@ -22,3 +22,27 @@ My Pictures
 My Videos
 My Web Sites
 Visual Studio 2022
+Custom Office Templates
+desktop.ini
+GitHub
+IISExpress
+My Cheat Tables
+My Games
+My Music
+My Pictures
+My Videos
+My Web Sites
+Visual Studio 2022
+Custom Office Templates
+desktop.ini
+GitHub
+IISExpress
+My Cheat Tables
+My Games
+My Music
+My Pictures
+My Videos
+My Web Sites
+New Microsoft Visio Drawing.vsdx
+New Microsoft Word Document.docx
+Visual Studio 2022

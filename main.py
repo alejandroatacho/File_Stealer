@@ -19,6 +19,8 @@ save_path = r'temp/file_path'
 for filename in os.listdir(directory):
     # comment below is broken due to max 3 arguments per .endswith, very easy fix but im also very lazy to change 1 line of code :3
     # if filename.endswith(".pptx", ".doc", ".docx", ".txt", ".pdf", ".mp3"):
+    # _, file_ext = os.path.splitext(filename)
+    # if file_ext in (".pptx", ".pdf", ".doc", ".docx"):
     if filename.endswith(".pdf") or filename.endswith(".pptx") or filename.endswith(".doc") or filename.endswith(".docx"):
         copyfile(directory + '/' + filename, save_path + '/' + filename)
         print(filename + " has been successfully copied!")
